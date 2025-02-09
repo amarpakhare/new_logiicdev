@@ -13,6 +13,7 @@ import BatteryValue from "../../assets/BatteryValue.png"
 
 function Product1() {
 	const refe = useRef(null)
+	const refe1 = useRef(null)
 	const refe2 = useRef(null)
 	const refe3 = useRef(null)
 	const refe4 = useRef(null)
@@ -23,6 +24,7 @@ function Product1() {
 	const refe9 = useRef(null)
 	const refe10 = useRef(null)
 	const isInView = useInView(refe, {once: true, amount: 0.2})
+	const isInView1 = useInView(refe, {once: true, amount: 0.2})
 	const isInView2 = useInView(refe2, {once: true, amount: 0.2})
 	const isInView3 = useInView(refe3, {once: true, amount: 0.2})
 	const isInView4 = useInView(refe4, {once: true, amount: 0.2})
@@ -98,7 +100,7 @@ function Product1() {
 			>
 				{/* Title Section */}
 				<motion.h1
-					className="text-3xl leading-relaxed md:mb-14 md:text-6xl font-semibold text-black text-center mb-6 md:leading-relaxed dark:text-white"
+					className="leading-relaxed md:mb-14 text-3xl sm:text-5xl md:text-5xl font-extrabold text-gray-800 text-center mb-6 md:leading-relaxed dark:text-white"
 					initial={{opacity: 0, scale: 0.9}}
 					animate={{opacity: 1, scale: 1}}
 					transition={{duration: 0.7, delay: 0.2}}
@@ -147,9 +149,9 @@ function Product1() {
 					{/* Image */}
 					<motion.div
 						className="relative"
-						ref={refe}
+						ref={refe1}
 						initial="hidden"
-						animate={isInView ? "visible" : "hidden"}
+						animate={isInView1 ? "visible" : "hidden"}
 						variants={imageVariants}
 					>
 						<img

@@ -72,7 +72,7 @@ function Product4() {
 			>
 				{/* Title Section */}
 				<motion.h1
-					className="text-3xl leading-relaxed md:mb-14 md:text-6xl font-semibold text-black text-center mb-6 md:leading-relaxed dark:text-white"
+					className="leading-relaxed md:mb-14 text-3xl sm:text-5xl md:text-5xl font-extrabold text-gray-800 text-center mb-6 md:leading-relaxed dark:text-white"
 					initial={{opacity: 0, scale: 0.9}}
 					animate={{opacity: 1, scale: 1}}
 					transition={{duration: 0.7, delay: 0.2}}

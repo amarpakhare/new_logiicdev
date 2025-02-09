@@ -39,9 +39,9 @@ const Advantages = () => {
 		},
 		{
 			icon: <img src={FPGA} alt="FPGA & IP" className="w-10" />,
-			title: "FPGA & IP",
+			title: "FPGA & AI IP",
 			description:
-				"Logiicdev provides bespoke FPGA solutions as cost-effective alternatives to ASICs, minimizing hidden costs and production delays.",
+				"Logiicdev develops bespoke FPGA & IP solutions as cost-effective alternatives to ASICs, minimizing hidden costs and production delays.",
 		},
 		{
 			icon: (

@@ -31,13 +31,9 @@ const StatsSection = () => {
 				{/* Heading and Subheading */}
 				<div className="text-center space-y-4">
 					<h2 className="text-3xl sm:text-4xl font-bold mb-6 leading-tight text-black dark:text-[#E2E8F0]">
-						Streamline project management <br className="hidden sm:block" />
-						with the simplest tool available
+					Achievements
 					</h2>
-					<p className="text-gray-700 text-sm sm:text-base dark:text-gray-400">
-						Why a straightforward project management tool is the best choice for
-						your team
-					</p>
+					
 				</div>
 
 				{/* Stats Box */}
@@ -73,7 +69,7 @@ const StatsSection = () => {
 					<div className="hidden md:block border-l border-black dark:border-gray-500 h-12 mx-6"></div>
 					<div className="text-center mb-6 md:mb-0">
 						<h2 className="text-3xl sm:text-4xl font-bold flex justify-center">
-							<AnimatedCounter targetNumber={190} /> <span>+</span>
+							<AnimatedCounter targetNumber={370} /> <span>+</span>
 						</h2>
 						<p className="text-sm sm:text-base mt-2 dark:text-gray-300">
 							Followers

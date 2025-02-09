@@ -22,7 +22,7 @@ const Home = () => {
 			<ProjectSection />
 			<Testimonials />
 			<LogoCarousel />
-			<CallToAction />
+			{/* <CallToAction /> */}
 		</>
 	)
 }
