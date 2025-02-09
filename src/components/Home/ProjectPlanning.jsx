@@ -79,9 +79,7 @@ const ProjectPlanning = () => {
 					and manufacturing state-of-the-art electronics and PCBs tailored for
 					diverse systems. Our commitment to excellence includes custom
 					solutions, advanced simulations, and expert consulting, all aimed at
-					enhancing efficiency and fostering innovation. Partner with us to turn
-					your visionary ideas into reality and lead the charge in technological
-					advancement!
+					enhancing efficiency and fostering innovation. 
 				</motion.p>
 			</motion.div>
 		</motion.section>

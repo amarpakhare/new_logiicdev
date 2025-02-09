@@ -41,7 +41,7 @@ const ProjectSection = () => {
 
 					{/* Heading */}
 					<h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white leading-tight">
-						Everything that Matters to Your Success
+						Everything that Matters to Success
 					</h2>
 
 					{/* Paragraphs */}
