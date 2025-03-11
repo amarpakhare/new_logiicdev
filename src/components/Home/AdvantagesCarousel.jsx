@@ -58,7 +58,7 @@ const AdvantagesCarousel = () => {
 			<div className="w-full max-w-3xl">
 				{/* Heading */}
 				<h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 dark:text-gray-100 mb-8">
-					Unlock Your Potential: Discover the Advantages We Offer!
+				Unlock the Advantages We Offer!
 				</h2>
 
 				{/* Carousel */}

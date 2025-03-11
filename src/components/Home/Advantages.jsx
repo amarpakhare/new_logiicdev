@@ -81,7 +81,8 @@ const Advantages = () => {
 					transition={{duration: 0.7}}
 				>
 					<h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 leading-tight">
-						Unlock Your Potential with Our Unparalleled Advantages
+						{/* Unlock Your Potential with Our Unparalleled Advantages */}
+						Unlock the Potential with Our Unparalleled Advantages
 					</h2>
 					<p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto">
 						Explore how our innovative solutions can drive efficiency and
