@@ -52,19 +52,17 @@ const HeroSection = () => {
 				<div>
 					{/* dark:text-[#1D1E25] */}
 					<h1 className="text-3xl sm:text-4xl md:text-[42px] font-extrabold text-gray-800 dark:text-white mb-6 lg:leading-snug">
-					Edge is here; Right now, 
-					<br />
-					Life is here; Right now,
-					<br />
-					<span className="text-[#ffcc00]">Logiicdev</span> is here, Processing now!
-					<br />
-					
-					{" "}
-						<span>Towards A Better World!</span>
+						Edge is Future; So Logiicdev !
+						<br />
+						Life is here; Right now,
+						<br />
+						<span className="text-[#ffcc00]">Change</span> is constant. Logi
+						make sure it leads to something better.
 					</h1>
 					<p className="text-gray-700 text-sm sm:text-base lg:text-lg mb-6 dark:text-gray-300">
-					LOGIICDEV is leading transformative visionary ideas into impactful results. We explore, innovate and develop the holistic solution that leads to a brighter, more sustainable future for all. 
-
+						LOGIICDEV is leading transformative visionary ideas into impactful
+						results. We explore, innovate and develop the holistic solution that
+						leads to a brighter, more sustainable future for all.
 					</p>
 				</div>
 				<div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">

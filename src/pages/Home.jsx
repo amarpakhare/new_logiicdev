@@ -9,6 +9,7 @@ import CallToAction from "../components/CallToAction"
 import LogoCarousel from "../components/LogoCarousel"
 import AdvantagesCarousel from "../components/Home/AdvantagesCarousel"
 import Testimonials from "../components/Home/Testimonials"
+import ProductOmnipower from "../components/Home/ProductOmnipower"
 
 const Home = () => {
 	return (
@@ -22,6 +23,7 @@ const Home = () => {
 			<ProjectSection />
 			<Testimonials />
 			<LogoCarousel />
+			<ProductOmnipower />
 			{/* <CallToAction /> */}
 		</>
 	)
