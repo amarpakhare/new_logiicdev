@@ -18,12 +18,12 @@ const Home = () => {
 			{/* <WhatWeDo /> */}
 			<StatsSection />
 			<ProjectPlanning />
+			<ProductOmnipower />
 			<AdvantagesCarousel />
 			<Advantages />
 			<ProjectSection />
 			<Testimonials />
 			<LogoCarousel />
-			<ProductOmnipower />
 			{/* <CallToAction /> */}
 		</>
 	)

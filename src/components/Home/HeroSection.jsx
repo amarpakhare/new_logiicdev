@@ -54,8 +54,6 @@ const HeroSection = () => {
 					<h1 className="text-3xl sm:text-4xl md:text-[42px] font-extrabold text-gray-800 dark:text-white mb-6 lg:leading-snug">
 						Edge is Future; So Logiicdev !
 						<br />
-						Life is here; Right now,
-						<br />
 						<span className="text-[#ffcc00]">Change</span> is constant. Logi
 						make sure it leads to something better.
 					</h1>
