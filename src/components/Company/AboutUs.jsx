@@ -12,7 +12,7 @@ import DK from "../../assets/Team/DK.png"
 import IanM from "../../assets/Team/IanM.png"
 import Theo from "../../assets/Team/Theo.png"
 import JAKOB from "../../assets/Team/Jakob_Udier.jpeg"
-import ELENA from "../../assets/Team/Elena Mokina.jpeg"
+import SRAVNAI from "../../assets/Team/Sravani Thota.jpeg"
 
 const AboutUs = () => {
 	const teamMembers = [
@@ -52,11 +52,11 @@ const AboutUs = () => {
 			imageUrl: JAKOB, // Replace with the actual image path
 		},
 		{
-			name: "ELENA MOKINA",
-			title: "Business Manager",
+			name: "SRAVANI THOTA",
+			title: "FPGA Engineer",
 			description:
-				"Driving growth, optimizing operations, and leading teams. Passionate about strategic planning, fostering innovation, and delivering exceptional results for clients and stakeholders.",
-			imageUrl: ELENA, // Replace with the actual image path
+				"Specialising in high-performance FPGA, AI integration, and real-time data processing. Designing and implementing custom FPGA architectures optimized for low-latency operations and parallel processing efficiency.",
+			imageUrl: SRAVNAI, // Replace with the actual image path
 		},
 	]
 
