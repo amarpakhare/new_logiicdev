@@ -13,6 +13,7 @@ import IanM from "../../assets/Team/IanM.png"
 import Theo from "../../assets/Team/Theo.png"
 import JAKOB from "../../assets/Team/Jakob_Udier.jpeg"
 import SRAVNAI from "../../assets/Team/Sravani Thota.jpeg"
+import DILIP from "../../assets/Team/Dilip Kothari.jpeg"
 
 const AboutUs = () => {
 	const teamMembers = [
@@ -57,6 +58,13 @@ const AboutUs = () => {
 			description:
 				"Specialising in high-performance FPGA, AI integration, and real-time data processing. Designing and implementing custom FPGA architectures optimized for low-latency operations and parallel processing efficiency.",
 			imageUrl: SRAVNAI, // Replace with the actual image path
+		},
+		{
+			name: "DILIP KOTHARI",
+			title: "Chief Development Officer",
+			description:
+				"Leading development of people and products to generate new prospects leading to Prosperity and Profitability",
+			imageUrl: DILIP, // Replace with the actual image path
 		},
 	]
 
