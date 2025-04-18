@@ -2,7 +2,8 @@ import {useState, useEffect} from "react"
 import {Link} from "react-router-dom"
 import {MoonIcon, SunIcon, ArrowRightIcon} from "@heroicons/react/24/solid"
 import {motion} from "framer-motion"
-import Logo from "../assets/logo.png"
+// import Logo from "../assets/logo.png"
+import Logo from "../assets/Home/Logo.jpeg"
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -101,15 +102,18 @@ const Navbar = () => {
 		<nav className="bg-transparent backdrop-blur-md rounded-lg bg-white dark:bg-gray-900 px-4 sm:px-6 lg:px-8 sticky top-0 z-10">
 			<div className="flex justify-between h-16">
 				<Link to="/" className="flex-shrink-0 flex items-center justify-center">
-					<img className="block h-10 w-auto" src={Logo} alt="Logo" />
-					<span
-						className="text-4xl -mt-3 font-extrabold xl:text-5xl text-[#ffcc00] dark:text-white"
-						// style={{
-						// 	textShadow: "2px 4px 0px rgba(33, 33, 33, 1)",
-						// }}
-					>
-						Logiicdev
-					</span>
+					<img className="block h-16 w-auto" src={Logo} alt="Logo" />
+					{/* <div className="flex items-center flex-col gap-1">
+						<span
+							className="text-4xl -mt-3 font-extrabold xl:text-4xl text-[#ffcc00] dark:text-white"
+							// style={{
+							// 	textShadow: "2px 4px 0px rgba(33, 33, 33, 1)",
+							// }}
+						>
+							Logiicdev
+						</span>
+						<span className="text-[#0070c1]">Intelligent Innovation</span>
+					</div> */}
 				</Link>
 
 				<div className="hidden md:flex items-center justify-center flex-grow space-x-8">
@@ -125,25 +129,24 @@ const Navbar = () => {
 						</Link>
 					</motion.div>
 
-					{/* Desktop Company Dropdown */}
+					{/* Product */}
 					<div
 						className="relative"
-						onMouseEnter={handleCompanyMouseEnter}
-						onMouseLeave={handleCompanyMouseLeave}
+						onMouseEnter={handleProductMouseEnter}
+						onMouseLeave={handleProductMouseLeave}
 					>
-						<Link
-							onClick={() => {
-								window.scrollTo(0, 0)
-							}}
-							to="/aboutus"
-						>
-							<motion.div variants={linkVariants} whileHover="hover">
-								<p className="text-gray-900 cursor-pointer dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
-									Company
-								</p>
-							</motion.div>
-						</Link>
-						{isCompanyDropdownOpen && (
+						<motion.div variants={linkVariants} whileHover="hover">
+							<Link
+								onClick={() => {
+									window.scrollTo(0, 0)
+								}}
+								className="text-gray-900 cursor-pointer dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+								to="/product"
+							>
+								Product
+							</Link>
+						</motion.div>
+						{isProductDropdownOpen && (
 							<div className="absolute left-0 mt-6 w-48 bg-white dark:bg-gray-700 shadow-lg rounded-lg z-10">
 								<ul>
 									<li>
@@ -151,64 +154,74 @@ const Navbar = () => {
 											onClick={() => {
 												window.scrollTo(0, 0)
 											}}
-											to="/careers"
+											to="/product1"
 											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
 										>
-											Careers
+											Omnipower
 										</Link>
 									</li>
-									<li>
+									<li
+										className="relative"
+										onMouseEnter={handleProduct2MouseEnter}
+										onMouseLeave={handleProduct2MouseLeave}
+									>
 										<Link
 											onClick={() => {
 												window.scrollTo(0, 0)
 											}}
-											to="/aboutus"
+											to="/product2"
 											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
 										>
-											About us
+											Cost-Optimized SoC
 										</Link>
-									</li>
-									<li>
-										<Link
-											onClick={() => {
-												window.scrollTo(0, 0)
-											}}
-											to="/legal"
-											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
-										>
-											Legal
-										</Link>
+										{isProduct2DropdownOpen && (
+											<div className="absolute -right-10 mt-2 w-48 bg-white dark:bg-gray-700 shadow-lg rounded-lg z-10">
+												<ul>
+													<li>
+														<Link
+															onClick={() => {
+																window.scrollTo(0, 0)
+															}}
+															to="/product2"
+															className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+														>
+															KIANA
+														</Link>
+													</li>
+													<li>
+														<Link
+															onClick={() => {
+																window.scrollTo(0, 0)
+															}}
+															to="/product3"
+															className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+														>
+															InAS
+														</Link>
+													</li>
+													<li>
+														<Link
+															onClick={() => {
+																window.scrollTo(0, 0)
+															}}
+															to="/product4"
+															className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+														>
+															KARVi
+														</Link>
+													</li>
+												</ul>
+											</div>
+										)}
 									</li>
 									{/* <li>
 										<Link
-											to="/impressum"
+											to="/product3"
 											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
 										>
-											Impressum
+											Product 3
 										</Link>
 									</li> */}
-									<li>
-										<Link
-											onClick={() => {
-												window.scrollTo(0, 0)
-											}}
-											to="/datenschutz"
-											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
-										>
-											Datenschutz
-										</Link>
-									</li>
-									<li>
-										<Link
-											onClick={() => {
-												window.scrollTo(0, 0)
-											}}
-											to="/equityplan"
-											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
-										>
-											Equality plan
-										</Link>
-									</li>
 								</ul>
 							</div>
 						)}
@@ -332,24 +345,25 @@ const Navbar = () => {
 					</div>
 
 					{/* (Keep the existing dropdown logic here for desktop view) */}
-
+					{/* Desktop Company Dropdown */}
 					<div
 						className="relative"
-						onMouseEnter={handleProductMouseEnter}
-						onMouseLeave={handleProductMouseLeave}
+						onMouseEnter={handleCompanyMouseEnter}
+						onMouseLeave={handleCompanyMouseLeave}
 					>
-						<motion.div variants={linkVariants} whileHover="hover">
-							<Link
-								onClick={() => {
-									window.scrollTo(0, 0)
-								}}
-								className="text-gray-900 cursor-pointer dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
-								to="/product"
-							>
-								Product
-							</Link>
-						</motion.div>
-						{isProductDropdownOpen && (
+						<Link
+							onClick={() => {
+								window.scrollTo(0, 0)
+							}}
+							to="/aboutus"
+						>
+							<motion.div variants={linkVariants} whileHover="hover">
+								<p className="text-gray-900 cursor-pointer dark:text-gray-300 hover:text-gray-900 dark:hover:text-white">
+									Company
+								</p>
+							</motion.div>
+						</Link>
+						{isCompanyDropdownOpen && (
 							<div className="absolute left-0 mt-6 w-48 bg-white dark:bg-gray-700 shadow-lg rounded-lg z-10">
 								<ul>
 									<li>
@@ -357,74 +371,64 @@ const Navbar = () => {
 											onClick={() => {
 												window.scrollTo(0, 0)
 											}}
-											to="/product1"
+											to="/careers"
 											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
 										>
-											Omnipower
+											Careers
 										</Link>
 									</li>
-									<li
-										className="relative"
-										onMouseEnter={handleProduct2MouseEnter}
-										onMouseLeave={handleProduct2MouseLeave}
-									>
+									<li>
 										<Link
 											onClick={() => {
 												window.scrollTo(0, 0)
 											}}
-											to="/product2"
+											to="/aboutus"
 											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
 										>
-											Cost-Optimized SoC
+											About us
 										</Link>
-										{isProduct2DropdownOpen && (
-											<div className="absolute -right-10 mt-2 w-48 bg-white dark:bg-gray-700 shadow-lg rounded-lg z-10">
-												<ul>
-													<li>
-														<Link
-															onClick={() => {
-																window.scrollTo(0, 0)
-															}}
-															to="/product2"
-															className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
-														>
-															KIANA
-														</Link>
-													</li>
-													<li>
-														<Link
-															onClick={() => {
-																window.scrollTo(0, 0)
-															}}
-															to="/product3"
-															className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
-														>
-															InAS
-														</Link>
-													</li>
-													<li>
-														<Link
-															onClick={() => {
-																window.scrollTo(0, 0)
-															}}
-															to="/product4"
-															className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
-														>
-															KARVi
-														</Link>
-													</li>
-												</ul>
-											</div>
-										)}
+									</li>
+									<li>
+										<Link
+											onClick={() => {
+												window.scrollTo(0, 0)
+											}}
+											to="/legal"
+											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+										>
+											Legal
+										</Link>
 									</li>
 									{/* <li>
 										<Link
-											to="/product3"
+											to="/impressum"
 											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
 										>
-											Product 3
+											Impressum
 										</Link>
 									</li> */}
+									<li>
+										<Link
+											onClick={() => {
+												window.scrollTo(0, 0)
+											}}
+											to="/datenschutz"
+											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+										>
+											Datenschutz
+										</Link>
+									</li>
+									<li>
+										<Link
+											onClick={() => {
+												window.scrollTo(0, 0)
+											}}
+											to="/equityplan"
+											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
+										>
+											Equality plan
+										</Link>
+									</li>
 								</ul>
 							</div>
 						)}
