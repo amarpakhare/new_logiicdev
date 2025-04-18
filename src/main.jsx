@@ -74,7 +74,7 @@ const router = createBrowserRouter([
 				element: <Datenschutz />,
 			},
 			{
-				path: "/equityplan",
+				path: "/equalityplan",
 				element: <EquityPlan />,
 			},
 			{

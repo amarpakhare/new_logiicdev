@@ -19,14 +19,14 @@ const AboutUs = () => {
 	const teamMembers = [
 		{
 			name: "DEEPAK V KATKORIA",
-			title: "Founder",
+			title: "CEO",
 			description:
 				"My expertise lies in crafting and executing strategies to address complex issues, system planning and rationalization, and effectively managing and motivating teams.",
 			imageUrl: DK, // Replace with the actual image path
 		},
 		{
 			name: "DARSHNA DK",
-			title: "Manager",
+			title: "Operations and HR Manager",
 			description:
 				"My versatility is a valuable asset to understand customers requirements and propose adequate solutions which can not only ease their design but also ease their utilization.",
 			imageUrl: Darshna, // Replace with the actual image path
@@ -46,6 +46,13 @@ const AboutUs = () => {
 			imageUrl: IanM, // Replace with the actual image path
 		},
 		{
+			name: "DILIP KOTHARI",
+			title: "Chief Development Officer",
+			description:
+				"Leading development of people and products to generate new prospects leading to Prosperity and Profitability",
+			imageUrl: DILIP, // Replace with the actual image path
+		},
+		{
 			name: "JAKOB UDIER",
 			title: "Senior Sales consultant Partner",
 			description:
@@ -60,12 +67,20 @@ const AboutUs = () => {
 			imageUrl: SRAVNAI, // Replace with the actual image path
 		},
 		{
-			name: "DILIP KOTHARI",
-			title: "Chief Development Officer",
+			name: "Fedja Mulabegovic",
+			title: "AI Vision ISP Engineer",
 			description:
-				"Leading development of people and products to generate new prospects leading to Prosperity and Profitability",
-			imageUrl: DILIP, // Replace with the actual image path
+				"specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
+			imageUrl: "", // Replace with the actual image path
 		},
+		{
+			name: "Priyanwada A Udumullage",
+			title: "AI Vision ISP Engineer",
+			description:
+				"specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
+			imageUrl: "", // Replace with the actual image path
+		},
+		
 	]
 
 	const textVariants = {
