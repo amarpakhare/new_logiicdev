@@ -53,7 +53,7 @@ const HeroSection = () => {
 					{/* dark:text-[#1D1E25] */}
 					<h1 className="text-3xl sm:text-4xl md:text-[42px] font-extrabold text-gray-800 dark:text-white mb-6 lg:leading-snug">
 						Edge is Future; So is <span className="text-[#ffcc00]">Log</span>
-						<span className="text-[#0070c1]">II</span>
+						<span className="text-[#0070c1]">ii</span>
 						<span className="text-[#ffcc00] font-sans">cdev</span> !
 						<br />
 						{/* <span className="text-[#ffcc00]">Change</span> is constant. Logi

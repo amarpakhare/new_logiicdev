@@ -423,7 +423,7 @@ const Navbar = () => {
 											onClick={() => {
 												window.scrollTo(0, 0)
 											}}
-											to="/equityplan"
+											to="/equalityplan"
 											className="block px-4 py-2 text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg"
 										>
 											Equality plan
@@ -581,7 +581,7 @@ const Navbar = () => {
 								onClick={() => {
 									window.scrollTo(0, 0)
 								}}
-								to="/equityplan"
+								to="/equalityplan"
 								className="block p-1 rounded-lg text-gray-900 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
 							>
 								Equality plan
