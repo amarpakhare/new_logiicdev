@@ -71,14 +71,14 @@ const AboutUs = () => {
 			name: "Fedja Mulabegovic",
 			title: "AI Vision ISP Engineer",
 			description:
-				"specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
+				"Specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
 			imageUrl: Fedja, // Replace with the actual image path
 		},
 		{
 			name: "Priyanwada A Udumullage",
 			title: "AI Vision ISP Engineer",
 			description:
-				"specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
+				"Specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
 			imageUrl: Priyanwada, // Replace with the actual image path
 		},
 		
