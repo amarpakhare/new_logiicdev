@@ -14,7 +14,8 @@ import Theo from "../../assets/Team/Theo.png"
 import JAKOB from "../../assets/Team/Jakob_Udier.jpeg"
 import SRAVNAI from "../../assets/Team/Sravani Thota.jpeg"
 import DILIP from "../../assets/Team/Dilip Kothari.jpeg"
-
+import Fedja from "../../assets/Team/Fedja Mulabegovic.jpeg"
+import Priyanwada from "../../assets/Team/Priyanwada A Udumullage.jpeg"
 const AboutUs = () => {
 	const teamMembers = [
 		{
@@ -71,14 +72,14 @@ const AboutUs = () => {
 			title: "AI Vision ISP Engineer",
 			description:
 				"specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
-			imageUrl: "", // Replace with the actual image path
+			imageUrl: Fedja, // Replace with the actual image path
 		},
 		{
 			name: "Priyanwada A Udumullage",
 			title: "AI Vision ISP Engineer",
 			description:
 				"specializes in designing and deploying computer vision models that interpret and analyze visual data using AI and machine learning techniques.",
-			imageUrl: "", // Replace with the actual image path
+			imageUrl: Priyanwada, // Replace with the actual image path
 		},
 		
 	]
