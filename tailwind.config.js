@@ -23,6 +23,7 @@ export default {
 			// },
 			fontFamily: {
 				poppins: ["Poppins", "sans-serif"],
+				rokkitt:["Rokkitt", "sans-serif"]
 			},
 			backgroundImage: {
 				iot: "url('./src/assets/Solution/IOT_Pencil_draing.webp')",
