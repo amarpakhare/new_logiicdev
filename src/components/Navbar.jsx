@@ -2,8 +2,8 @@ import {useState, useEffect} from "react"
 import {Link} from "react-router-dom"
 import {MoonIcon, SunIcon, ArrowRightIcon} from "@heroicons/react/24/solid"
 import {motion} from "framer-motion"
-// import Logo from "../assets/logo.png"
-import Logo from "../assets/Home/Logo.jpeg"
+import Logo from "../assets/logo.png"
+// import Logo from "../assets/Home/Logo.jpeg"
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false)
@@ -102,7 +102,7 @@ const Navbar = () => {
 		<nav className="bg-transparent backdrop-blur-md rounded-lg bg-white dark:bg-gray-900 px-4 sm:px-6 lg:px-8 sticky top-0 z-10">
 			<div className="flex justify-between h-16">
 				<Link to="/" className="flex-shrink-0 flex items-center justify-center">
-					<img className="block h-16 w-auto" src={Logo} alt="Logo" />
+					<img className="block h-10 w-auto" src={Logo} alt="Logo" />
 					{/* <div className="flex items-center flex-col gap-1">
 						<span
 							className="text-4xl -mt-3 font-extrabold xl:text-4xl text-[#ffcc00] dark:text-white"
@@ -114,6 +114,19 @@ const Navbar = () => {
 						</span>
 						<span className="text-[#0070c1]">Intelligent Innovation</span>
 					</div> */}
+					<div className="flex flex-col items-center justify-center">
+						<span
+							className="text-3xl font-rokkitt font-semibold xl:text-5xl text-[#ffcc00]"
+							// style={{
+							// 	textShadow: "2px 4px 0px rgba(33, 33, 33, 1)",
+							// }}
+						>
+							<span>Log</span>
+							<span className="text-[#0071c1]">ii</span>
+							<span>cdev</span>
+						</span>
+						<p className="text-xs text-[#0071c1] font-medium">intelligent innovation</p>
+					</div>
 				</Link>
 
 				<div className="hidden md:flex items-center justify-center flex-grow space-x-8">
