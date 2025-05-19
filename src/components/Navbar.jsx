@@ -436,7 +436,7 @@ const Navbar = () => {
 				</div>
 
 				<div className="hidden md:flex items-center space-x-4 gap-4">
-					<Link
+					{/* <Link
 						onClick={() => {
 							window.scrollTo(0, 0)
 						}}
@@ -458,7 +458,7 @@ const Navbar = () => {
 								d="M9 5l7 7-7 7"
 							/>
 						</svg>
-					</Link>
+					</Link> */}
 					<button
 						onClick={toggleTheme}
 						className="ml-4 p-[6px] text-gray-900 dark:bg-white dark:text-gray-900 focus:outline-none border border-b-[4px] border-r-[3px] border-t-[2px] border-l-[1px] border-gray-900 rounded-[50%] hover:bg-gray-900 hover:text-white"
@@ -766,7 +766,7 @@ const Navbar = () => {
 					)}
 				</div>
 
-				<Link
+				{/* <Link
 					onClick={() => {
 						window.scrollTo(0, 0)
 					}}
@@ -774,7 +774,7 @@ const Navbar = () => {
 					className="m-auto flex items-center justify-center mx-12 my-2 px-4 py-2 bg-[#ffcc00] text-gray-900 font-medium rounded-md border border-black border-b-4 border-r-4 hover:bg-gray-50 transition gap-1"
 				>
 					Contact Us
-				</Link>
+				</Link> */}
 				<button
 					onClick={toggleTheme}
 					className="m-auto flex justify-center p-[6px] text-gray-900 dark:bg-white dark:text-gray-900 focus:outline-none border border-b-[4px] border-r-[3px] border-t-[2px] border-l-[1px] border-gray-900 rounded-[50%] hover:bg-gray-900 hover:text-white"

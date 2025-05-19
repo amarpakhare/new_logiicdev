@@ -16,12 +16,12 @@ const Home = () => {
 		<>
 			<HeroSection />
 			{/* <WhatWeDo /> */}
-			<StatsSection />
 			<ProjectPlanning />
 			<ProductOmnipower />
 			<AdvantagesCarousel />
-			<Advantages />
 			<ProjectSection />
+			<Advantages />
+			<StatsSection />
 			<Testimonials />
 			<LogoCarousel />
 			{/* <CallToAction /> */}

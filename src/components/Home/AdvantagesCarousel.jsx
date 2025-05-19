@@ -56,7 +56,7 @@ const AdvantagesCarousel = () => {
 	return (
 		<div className="flex flex-col items-center justify-center bg-[#fff] dark:bg-[#111827] px-4 py-8">
 				<h2 className="text-3xl sm:text-4xl font-bold text-center w-full text-gray-900 dark:text-gray-100 mb-8">
-				Maximize Your Capabilities: Explore the Benefits We Provide!
+				Explore the Benefits We Provide!
 				</h2>
 			<div className="w-full max-w-3xl">
 				{/* Heading */}
