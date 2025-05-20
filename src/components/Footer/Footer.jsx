@@ -31,7 +31,7 @@ const Footer = () => {
 								to="/contact"
 							>
 								<button className="flex items-center px-6 py-3 bg-[#ffcc00] text-black font-medium rounded-md border border-black border-b-4 border-r-4 hover:bg-[#bea231] transition">
-									Get Started
+									Contact Us
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
