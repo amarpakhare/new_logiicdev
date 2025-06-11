@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import {MoonIcon, SunIcon, ArrowRightIcon} from "@heroicons/react/24/solid"
 import {motion} from "framer-motion"
 // import Logo from "../assets/logo.png"
-import Logo from "../assets/Home/Logo.jpeg"
+import Logo from "../assets/Home/Logo__1_-removebg-preview.png"
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false)
